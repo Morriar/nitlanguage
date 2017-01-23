@@ -1,0 +1,36 @@
+# Eternity
+
+Good news everyone! We found a new cool name with `nit` in it (got that one?).
+So now, we need the tool we will use the name with!
+
+Also, this gives us a good excuse to throw a Nit Coding Party.
+
+* when: TBD
+* where: TBD
+* who: TBD
+* what: implement Eternity
+
+## What is eternity?
+
+Eternity is the now famous, but not yet implemented, ORM framework for Nit.
+
+### Required features
+
+* Easy to use frontend
+* Pluggable backend (SQLite, Mongo etc...)
+* Out of the box basic CRUD operations
+* Possibility to redefine out of the box behaviour
+* Select with table jointures
+
+## Coding party objectives
+
+* Define good use-cases for Eternity
+* Write Eternity specifications and base conception from use-cases
+* Implement Eternity specifications
+* Write Eternity documentation
+
+## Resources and inspiration
+
+* Django ORM: https://docs.djangoproject.com/en/1.10/topics/db/
+* Spring ORM: http://docs.spring.io/spring/docs/current/spring-framework-reference/html/orm.html
+* Hibernate: http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html
