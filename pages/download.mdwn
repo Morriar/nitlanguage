@@ -8,7 +8,7 @@ The main way to get to get it from its [[git repository|http://nitlanguage.org/n
 
 ~~~sh
 $ git clone http://nitlanguage.org/nit.git
-~~~sh
+~~~
 
 or to download the latest [[snapshot|http://nitlanguage.org/nit.git/snapshot/HEAD.tar.gz]] (tar.gz)
 

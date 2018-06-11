@@ -53,7 +53,7 @@ Most Java API require to implement one or many interfaces with custom Java class
 
 1. The easiest way, which is not always applicable, is to use anonymous classes. Creating a class from a super-class or an interface directly where it is used.
 
-  TODO add exemples
+   TODO add exemples
 
 2. You can also create a static nested class. In fact, all the Java code within a Nit module will be organized within a single Java class. You can add a static nested class to this generated class using an extern code block prefixed by `in "Java Inner"` at the module level.
 
@@ -172,11 +172,11 @@ Having read the beginning of this page you know how to wrap Java services in Nit
 
 2. Generate the wrapping code for the class `android.os.Bundle` with a call to:
 
-  `jwrapper Bundle.class android_os_bundle.nit`
+   `jwrapper Bundle.class android_os_bundle.nit`
 
-  This will create the file `android_os_bundle.nit` with the wrapper around the `Bundle` class. It will also define minimal wrappers around any other Java classes referenced but not already wrapped by the Nit library.
+   This will create the file `android_os_bundle.nit` with the wrapper around the `Bundle` class. It will also define minimal wrappers around any other Java classes referenced but not already wrapped by the Nit library.
 
-  Alternatively, you can use the `-c` option to _not_ generate those additional minimal wrappers. _jwrapper_ will instead comment the lines of code that are invalid without the referenced classes. They can be activated once the required class has also been wrapped.
+   Alternatively, you can use the `-c` option to _not_ generate those additional minimal wrappers. _jwrapper_ will instead comment the lines of code that are invalid without the referenced classes. They can be activated once the required class has also been wrapped.
 
 3. Review the generated code and adapt it to your needs.
 
